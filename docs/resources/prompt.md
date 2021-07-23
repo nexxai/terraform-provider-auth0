@@ -11,7 +11,7 @@ With this resource, you can manage your Auth0 prompts, including choosing the lo
 
 ## Example Usage
 
-```
+```hcl
 resource "auth0_prompt" "example" {
   universal_login_experience = "classic"
 }
